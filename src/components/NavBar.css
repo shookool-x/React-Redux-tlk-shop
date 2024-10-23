@@ -1,0 +1,31 @@
+.navbar {
+  margin: 10px;
+}
+
+.navbar>button {
+  background-color: #9ADE7B;
+  width: 10rem;
+  cursor: pointer;
+  padding: 20px;
+  color: #000;
+  text-shadow: 0 0 10px #000;
+  font-family: 'irsans';
+  font-size: 1rem;
+  border-radius: 37% 63% 33% 67% / 100% 0% 100% 0%;
+  border: rgba(255, 178, 0, 0.8) 2px solid;
+  box-shadow:
+    0 0 10px rgba(255, 178, 0, 0.8),
+    0 0 20px rgba(255, 178, 0, 0.6),
+    inset 0 0 5px rgba(255, 178, 0, 0.8),
+    inset 0 0 10px rgba(255, 178, 0, 0.6);
+    transition:border-radius 0.5s ease;
+
+    &:hover{
+      border-radius: 3rem;
+    }
+
+    &:active{
+      outline: 2px solid white;
+    }
+
+}

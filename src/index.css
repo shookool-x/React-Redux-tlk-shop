@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'irsans';
+  src: url('./assets/irsans.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'irsans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+  background-color: #B60071;
+  color: #FFB200;
+}

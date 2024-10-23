@@ -1,0 +1,57 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-backdrop .modal-content {
+  width: 40%;
+  margin: 50px auto;
+  background-color: #06D001;
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.modal-backdrop .modal-content>h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 90%;
+  border-bottom: #fff 2px solid;
+  margin: 10px auto;
+}
+
+.modal-backdrop .modal-content .cart-item {
+  width: 90%;
+  padding-bottom: 20px;
+  margin: 20px auto;
+  border-bottom: #fff 2px solid;
+  text-align: center;
+}
+
+.modal-backdrop .modal-content .cart-action {
+  direction: ltr;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.modal-backdrop .modal-content .cart-action button {
+  padding: 10px;
+  font-family: 'irsans';
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  box-shadow:
+    inset 5px 5px 5px rgba(0, 0, 0, 0.25),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.9),
+    10px 10px 10px rgba(0, 0, 0, 0.15),
+    10px 12px 15px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+
+  &:active {
+    outline: 2px solid rgba(0, 0, 0, 0.25);
+  }
+}

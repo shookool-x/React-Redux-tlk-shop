@@ -1,0 +1,49 @@
+.modal-backdrop .modal-content .cart-item .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #F3FF90;
+  color: #000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.modal-backdrop .modal-content .cart-item .item span {
+  margin-inline: 10px;
+  display: inline-block;
+  width: 20px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #9BEC00;
+  transition: 0.5s ease;
+
+  &:hover {
+    background-color: #059212;
+  }
+}
+
+.modal-backdrop .modal-content .cart-item .item strong {
+  display: inline-block;
+  padding-block: 10px;
+  border-radius: 10px;
+  width: 40px;
+  background-color: #059212;
+}
+
+.modal-backdrop .modal-content .cart-item .total-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+  margin-top: 10px;
+  border-top: 2px dashed #fff;
+  font-weight: bold;
+}
+
+.modal-backdrop .modal-content .cart-item .total-price span {
+  background-color: #059212;
+  border-radius: 10px;
+  padding: 10px;
+}
